@@ -15,8 +15,10 @@ class DataIngestionTrainingPipeline:
         data_ingestion.download_file()
         data_ingestion.extract_zip_file()
 
-
-if __name__ == "main":
+# Use this when running through the main.py
+# if __name__ == "main":
+# Use this while running through dvc 
+if __name__ == __name__:
     try:
         logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
         obj = DataIngestionTrainingPipeline()

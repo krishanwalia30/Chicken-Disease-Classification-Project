@@ -16,7 +16,10 @@ class PrepareBaseModelTrainingPipeline:
         prepare_base_model.update_base_model()
 
 
-if __name__ == "main":
+# Use this when running through the main.py
+# if __name__ == "main":
+# Use this while running through dvc 
+if __name__ == __name__:
     try:
         logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
         obj = PrepareBaseModelTrainingPipeline()

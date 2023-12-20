@@ -25,7 +25,11 @@ class ModelTrainingPipeline:
             callback_list=callback_list
         )
         
-if __name__ == "main":
+        
+# Use this when running through the main.py
+# if __name__ == "main":
+# Use this while running through dvc 
+if __name__ == __name__:
     try:
         logger.info(f"********************")
         logger.info(f">>>>> stage {STAGE_NAME} started <<<<<<<")
