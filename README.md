@@ -18,6 +18,7 @@
 
 ### Running the Data Version Control (DVC)
 
-<b>Command: `dvc init` </b> {optional, as the dvc has already been initialized in the project}
+<b>Command: `dvc init` </b> (optional, as the DVC has already been initialized in the project)
+
 <b>Command: `dvc repro` </b>
 
