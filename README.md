@@ -12,3 +12,6 @@
 7. Update the pipeline
 8. Update the main.py
 9. Update the dvc.yaml
+
+### Running the Tensorboard
+<b>Command: `tensorboard --logdir artifacts/prepare_callbacks/tensorboard_log_dir/` </b>
