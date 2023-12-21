@@ -34,8 +34,13 @@ def main():
         # Creating a button for prediction
         if st.button("Disease Test Result"):
             result = clApp.classifier.predict()
-
-            st.success(result)
+            
+            # Analysing the result and then giving the statement
+            if (result[0]['image'] == "Healthy"):
+                st.success("The chicken is healthy")
+            
+            else:
+                st.success("The chicken is infected with Coccidiosis")
         if st.button("Train"):
             os.system("dvc repro")
             st.success("Training Successful!")
