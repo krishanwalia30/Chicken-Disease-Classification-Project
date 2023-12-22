@@ -10,7 +10,6 @@ class ClientApp:
         self.filename = "inputImage.jpg"
         self.classifier = PredictionPipeline(self.filename)
 
-
 # For running the complete pipeline
 def main():
 
@@ -46,9 +45,6 @@ def main():
             st.success("Training Successful!")
 
 
-
 if __name__ == "__main__":
     clApp = ClientApp()
     main()
-    
-
