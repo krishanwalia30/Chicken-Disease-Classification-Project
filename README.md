@@ -87,7 +87,10 @@ open: https://localhost/8000
 The project is deployed as a webapp using Streamlit.
 
 Link: https://chicken-disease-classification-project.streamlit.app/
-## Appendix
+
+
+
+## 🧾 Appendix
 
 #### Running the DVC:
 Run the following command in the main project command prompt,-
